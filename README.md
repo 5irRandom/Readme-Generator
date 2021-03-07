@@ -1,7 +1,7 @@
 # Readme Generator
 ## Description
 
-A simple Readme Generator using the console log, to automatically create and write to a file
+A simple Readme Generator using the console log, to automatically create and write to a file, as an example this was made using it.
 
 ## Installation
 
