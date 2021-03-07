@@ -13,7 +13,7 @@ Run index.js using Node
 
 ## Credits
 
-Github: 5irRandom
+Github: [5irRandom](https://github.com/5irRandom)
 Email: duncan5irjax@gmail.com
 
 ## License

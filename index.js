@@ -56,7 +56,7 @@ function init() {
         }
     ])
     .then(answer => {
-        let log = `# ${answer.title}\n\n## Description\n\n${answer.desc}\n\n## Installation\n\n${answer.install}\n\n## Usage\n\n${answer.usage}\n\n## Credits\n\nGithub: ${answer.user}\nEmail: ${answer.email}\n\n## License\n\nThis is where I would put the thing for the license if I knew how it worked, but here's what you chose: ${answer.license}`;
+        let log = `# ${answer.title}\n\n## Description\n\n${answer.desc}\n\n## Installation\n\n${answer.install}\n\n## Usage\n\n${answer.usage}\n\n## Credits\n\nGithub: [${answer.user}](https://github.com/${answer.user})\nEmail: ${answer.email}\n\n## License\n\nThis is where I would put the thing for the license if I knew how it worked, but here's what you chose: ${answer.license}`;
         writeToFile("./output/README.md", log, (err) =>
         err ? console.error(err) : console.log('Created!')
         );
